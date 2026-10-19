@@ -1,0 +1,10 @@
+{
+  "name": "memoshelf",
+  "displayName": "Memoshelf",
+  "version": "1.0.0",
+  "description": "Shared notebook for AI agents: a run log, notes and a pinned How-we-work page that every connected agent reads at the start of a session. Remote MCP with OAuth; free plan, no card.",
+  "author": { "name": "Memoshelf", "email": "hello@memoshelf.com" },
+  "license": "MIT",
+  "keywords": ["memory", "notes", "run-log", "mcp", "agents", "handoff"],
+  "logo": "assets/logo.svg"
+}

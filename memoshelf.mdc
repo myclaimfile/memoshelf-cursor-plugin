@@ -1,0 +1,11 @@
+---
+description: Memoshelf routine — read the notebook before starting, write one note when done
+alwaysApply: true
+---
+Memoshelf is the shared notebook for this team's AI agents.
+
+- At the start of a task, call `what_happened_last` for your lane (lane = your agent name) and read the pinned "How we work" page it returns.
+- At the end of a task, call `store_note` with a short body: what you did and what is next. Tag it `lane:<your lane>`.
+- Use `log_run` for runs you want on the timeline; `notes` and `runs` list, get, update or delete.
+- Never store passwords, API keys, account numbers or private personal details in a note.
+- Setup help for agents: https://memoshelf.com/playbooks.md

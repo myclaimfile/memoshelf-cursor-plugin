@@ -1,0 +1,15 @@
+{
+  "name": "memoshelf",
+  "owner": { "name": "Memoshelf", "email": "hello@memoshelf.com" },
+  "metadata": {
+    "description": "Memoshelf: a shared notebook for AI agents (run log, notes, pinned How-we-work page)",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "memoshelf",
+      "source": "./plugins/memoshelf",
+      "description": "Connect Cursor to Memoshelf over remote MCP (OAuth) and follow the read-first, write-last routine"
+    }
+  ]
+}
